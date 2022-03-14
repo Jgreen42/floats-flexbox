@@ -1,0 +1,50 @@
+
+/* reseting the defaults behaviors with (*) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* shows features of enabling 100% of the blocks filled */
+  .menu {
+    height: 100px;
+    background-color: #B2D6FF;    /* Medium blue */
+  }
+  
+  .sidebar {
+    height: 300px;
+    background-color: #F09A9D;    /* Red */
+  }
+  
+  .content {
+    height: 500px;
+    background-color: #F5CF8E;    /* Yellow */
+  }
+  
+  .footer {
+    height: 200px;
+    background-color: #D6E9FE;    /* Light blue */
+  }
+/* to use un comment a portion out take in mind the name of the element so as to not 
+conflict with the following element statement above. rec to use as an example */
+
+/* work cited https://www.internetingishard.com/html-and-css/floats/  */
+
+  /* shrinking on portion of the blocks but not the others
+
+  .sidebar {
+    width: 200px;              
+    height: 300px;
+    background-color: #F09A9D;
+  } */
+
+  /* shrinking one block but wrapping the surounding element around
+  it giving us a nice magazine style layout
+
+  .sidebar {
+    float: left;                  
+    width: 200px;
+    height: 300px;
+    background-color: #F09A9D;
+//
